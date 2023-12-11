@@ -1,0 +1,76 @@
+body {
+    background-color:rgba(113, 129, 160, 0.507) ;
+    font: 16px arial;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color:rgb(97, 161, 113) ;
+
+}
+
+.header {               /** untuk select header*/
+    padding :10px;      /** padding untuk didalam margin*/
+    font-weight: bold;
+
+}
+.header .judul{
+    font-size: 50px;
+    margin-left: 40px;
+
+}
+.header ol li {
+    display:inline-block;       /** untuk mengubah urutan dari bawah ke samping */
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.header a{
+    text-decoration: none; /**untuk menghilangkan hiasan pada text sperti garis bawah*/
+    color: salmon;
+}
+
+.header a:hover{            /** untuk membuat efek ketika cursor berada di select*/
+    background-color: lightblue;
+    color: white;
+}
+
+.gambar {
+    width: 760px;
+    margin: auto;
+    height: 250px;
+    padding-left: 40px;
+    background-image: url(img/gambar1.jpg);
+    background-size: cover;
+    border-top: solid lightcoral;
+    border-bottom: solid blueviolet;
+}
+
+.content {
+    width: 790px;
+    margin: auto;
+    margin-top:0px;
+    padding: 5px;
+    background-color: white;
+}
+.content h2{
+    font-size: 16px;
+}
+.content h3{
+    font-size: 14px;
+}
+.content p{
+    text-align: justify;
+
+}
+.cright p{
+    margin: 100px;
+    margin: auto;
+    background-color: bisque;
+    width: 500px;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
